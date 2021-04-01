@@ -24,11 +24,12 @@ header:hover{
 #entrada{
    float: right;
    margin-top: 25px;
+   
 }
 .topics{
     display: inline-block;
     color: white;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 #danis{
     float: left;
@@ -47,6 +48,11 @@ p{
     padding: 15px;
     color: white;
 }
+#endmark{
+    width: 150px;
+    filter: invert(100%);
+     margin-left: 30%;
+}
 h1{
     text-align: center;
     color: white;
@@ -54,5 +60,8 @@ h1{
 @media(max-width:800px)and(min-width: 600px){
     body{
         width: 100%;
+    }
+    #entrada{
+        visibility: visible;
     }
 }
