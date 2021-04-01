@@ -4,7 +4,6 @@
 body{
     background-image: url(image/b6a68c27030ea2af7b8a281ac75c65d3.jpeg);
     width: 100%;
-    
 }
 header{
     width: 100%;
@@ -15,12 +14,21 @@ header:hover{
     background-color: rgba(0, 255, 255, 0.242);
 }
 #home{
-    padding: 10px;
-    height: 40px;
+    padding: 5px;
+    height: 50px;
     filter: invert(100%);
 }
 #home:hover{
     transform: scale(1.2);
+}
+#entrada{
+   float: right;
+   margin-top: 25px;
+}
+.topics{
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
 }
 #danis{
     float: left;
