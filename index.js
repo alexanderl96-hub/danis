@@ -1,16 +1,11 @@
 const imagen = document.getElementById('home')
 const header = document.querySelector('header')
-const p2 = document.querySelector('p')
-document.addEventListener('DOMContentLoaded', e =>{
-    e.preventDefault()
+const entrada = document.querySelector('#entrada')
+console.log(header)
 
-    // imagen.addEventListener('click', e =>{
-    //     e.preventDefault()
-    //     if(e.target){
-    //         p2.textContent = "Galery"
-    //         header.appendChild(p2)
-    //     }
+imagen.addEventListener('click', (e) => {
+    e.preventDefault()
+    document.querySelector('header').classList.toggle('active');
     
-    // })
 })
 
