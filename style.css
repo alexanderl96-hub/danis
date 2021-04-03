@@ -22,7 +22,12 @@ header.active{
     text-align: center;
     
 }
+.topics2{
+    margin-top: 10px;
+    height: 60px;
+}
 .topics{
+    display: block;
     color: white;
     text-align: center;
     border-bottom: 1px solid black;
@@ -54,6 +59,7 @@ h1{
     border-radius: 50%;
     margin-left: 30px;
     margin-right: 20px;
+    margin-bottom: 10px;
 
 }
 p{
