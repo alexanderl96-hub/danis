@@ -87,11 +87,86 @@ p{
     height: 50px;
     filter: invert(100%);
 }
-
+.about{
+    font-size: 40px;
+    font-family: cursive;
+}
+.read{
+    display: flex;
+   text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    
+    
+}
+.mia{
+    height: 270px;
+    margin-left: 62px;
+    margin-right: 50px;
+    border: 1px solid black;
+    transition:all 1.3s;  
+    margin-bottom: 20px;
+}
+.mia:hover{
+    transition:all 1.3s;
+    transform:scale(1.2);
+    border-radius: 60px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border: 1px solid blue;
+}
+.labvideos{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    
+}
+.labphotos{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.imagenper{
+    margin-top: 10px;
+    height: 250px;
+}
 
 @media(max-width:800px)and(min-width: 600px){
     body{
         width: 100%;
     }
-    
+
+   
+}
+@media (orientation: landscape){
+    .about{
+        margin-bottom: 20px;
+    }
+    .mia{
+        height: 400px;
+        margin-left: 460px;      
+    }
+    .mia:hover{
+        border: 1px solid rgb(9, 9, 175);
+    }
+    .read{
+        display: flex;
+       text-align: justify;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        
+        
+    }
 }
